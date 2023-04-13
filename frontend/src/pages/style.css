@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body
+{
+    background: white;
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    color: white;
+    background: rgb(255, 0, 255);
+  }
+
+.button
+{
+    margin-left: 10px;
+    background: black;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 2px;
+    outline: none;
+    font-family: 'Poppins';
+    border: none;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+.w50
+{
+    width: 88%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.w88
+{
+    width: 50%;
+    padding: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.w10
+{
+    margin-left: 10px;
+    width: 5%;
+    box-sizing: border-box;
+    float: left;
+}
+
+input
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.input
+{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    font-family: 'Poppins';
+    transition: ease-in 0.1s;
+}
+
+.w100
+{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.input:focus
+{
+    transition: ease-in 0.1s;
+    border: 1px solid rgba(0,0,0,0.5)
+}
+
+.bar{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 50px auto 0px auto;
+}
+
+.transaction
+{
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: ease-in 0.25s;
+}
+
+.transaction:hover
+{
+    transition: ease-in 0.25s;
+    background-color:rgb(234, 234, 234);
+}
+
+.transactions
+{
+    border: 0px solid rgba(0,0,0,0.1);
+    width: 1200px;
+    margin: 100px auto;
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    background: white;
+}
+
+.big
+{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.small
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: rgb(118, 117, 117);
+}
+
+.left
+{
+    box-sizing: border-box;
+    float: left;
+}
+
+.value
+{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.right
+{
+    box-sizing: border-box;
+    float: right;
+}
+
+.date2
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.icon 
+{
+    width: 18px;
+}
+
+.section
+{
+    width: 1200px;
+    margin: auto;
+}
+
+.m20
+{
+    margin-top: 20px;
+}
+
+.m50
+{
+    margin-top: 50px;
+}
+
+.borderSection
+{
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.buttonW100
+{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    font-family: 'Poppins';
+    transition: ease-in 0.1s;
+    background: none;
+}
+
+.buttonW100:hover
+{
+    background: black;
+    color: white;
+}
+
+.errorStatus
+{
+    color: rgb(255, 142, 142);
+    font-size: 20px;
+}
+
+.head
+{
+    margin: 0px;
+    padding: 0px 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.info
+{
+    text-align: center;
+    margin: 0px;
+    padding: 5px 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+.header
+{
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.bigImage
+{
+    width: 300px;
+    height: 300px;
+    margin: 25px auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 400px;
+    position: relative;
+}
+
+.bigIcon
+{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.bigNumber
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.imgHolder
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 200px;
+}
+
+.head
+{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.date
+{
+    color:rgb(118, 117, 117);
+    text-align: center;
+}
+
+.centered
+{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.mainHead
+{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
