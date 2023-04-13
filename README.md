@@ -2,7 +2,7 @@
 
 Ether.me is a small application written in node.js for backend and react.js for frontend that can generate last 10K transactions for a ethereum adress that is given as well as balance of the address.
 
-Before running both frontend and backend an .env file with API_KEY="YOURAPIKEYHERE" is requied.
+Before running both frontend and backend, please configure .env file with API_KEY="YOURAPIKEYHERE".
 
 API provider is https://etherscan.io/apis.
 
